@@ -1,0 +1,291 @@
+
+nav a {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+/* === Typography === */
+
+
+body {
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 4em
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+
+
+
+/*=== Backgrounf ==*/ 
+
+header {
+    background-color: #000000;
+    padding-bottom: 20px;
+ 
+    
+    
+}
+
+a{
+    margin: 5px;
+}
+
+
+
+footer {
+     background-color: #000000;
+}
+
+#textimage {
+    background-image:url(heading.jpg);
+}
+
+/* === Boxmodel ==*/
+
+#foodarticle {
+    padding-left: 25px;
+}
+
+
+/* === Layout ==*/ 
+
+
+.floatimage {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    
+}
+
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: #cdcdcd;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+#articles {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#textimage {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+header {
+    position: fixed;
+    width: 1000px;
+}
+
+
+#adv {
+    background-color: #ff0000;
+    position: fixed;
+    bottom: 1px;
+    left: 1200px; 
+    padding-left: 30px;
+    width: 400px
+}
+
+#adv h1 {
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 24pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+footer {
+    height: 150px
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.6em;
+    padding-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+#foodarticle p {
+       display: flex;
+}
+
+
+
+
+nav a {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+/* === Typography === */
+
+
+body {
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 4em
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 16px;
+    width: 333px
+}
+
+
+/*=== Backgrounf ==*/ 
+
+header {
+    background-color: #000000;
+    padding-bottom: 20px;
+ 
+    
+    
+}
+
+#menu {
+    padding-left: 20px;
+}
+
+
+
+footer {
+     background-color: #000000;
+}
+
+#textimage {
+    background-image:url(heading.jpg);
+    padding-bottom: 10px;
+    padding-top: 300px
+}
+
+/* === Boxmodel ==*/
+
+#foodarticle {
+    padding-left: 25px;
+}
+
+
+/* === Layout ==*/ 
+
+
+.floatimage {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    
+}
+
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: #cdcdcd;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+#articles {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#textimage {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+header {
+    position: fixed;
+    width: 1000px;
+}
+
+
+#adv {
+    background-color: #ff0000;
+    position: fixed;
+    bottom: 1px;
+    left: 1200px; 
+    padding-left: 30px;
+    width: 400px
+}
+
+#adv h1 {
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 24pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+footer {
+    height: 150px
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.6em;
+    padding-left: 400px;
+   
+}
+
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-left:90px
+}
+
+#textimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px
+}
