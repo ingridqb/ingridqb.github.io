@@ -13,3 +13,45 @@ h1, h2, h3, h4{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+#goToMenu img {
+    height: 198px;
+    width: 198px;
+    object-fit: cover;
+    
+}
+
+
+.rectangleMenu {
+  height: 517px;
+  width: 1440px;
+  background-color: #FFF9DE;
+}
+
+.rectangleFooter {
+  height: 220px;
+  width: 1440px;
+  background-color: #922C40;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F3EAC0;
+    padding: 55px;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 55px;
+  text-decoration: none;
+    
+}
