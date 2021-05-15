@@ -1,0 +1,70 @@
+/* === For your Responsive CSS === */
+
+img {
+max-width: 100%;
+}
+
+@media screen and (min-width:600px){
+    
+}
+
+@media screen and (max-width:600px){
+    header {
+        grid-template-columns: 100%;
+    }
+    
+    #nav a {
+        display: block;
+        background-color: orange;
+        text-align: center;
+        padding-bottom: 10px;
+        }
+    #logo {
+        text-align: center;
+    }
+    #splash {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    }
+    #splash {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    height: 10.7rem;
+    }
+    main {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    #splash {
+        grid-column: 1/2;
+    }
+    #app {
+    grid-column: 1/2;
+    }
+    #legal {
+        text-align: center;
+        grid-column: 1/2;    
+    }
+    #social-media {
+        grid-column: 1/2;
+        margin: auto
+    }
+    footer {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:601px){
+    #mobile-menu {
+        display: none;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-scheme-background: black;
+        --color-scheme-text-color: white;
+    }
+}

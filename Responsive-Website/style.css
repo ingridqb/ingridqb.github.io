@@ -1,0 +1,180 @@
+/* 
+
+=== FoodGo Lab ===
+
+Do not delete existing CSS
+
+*/
+
+/* == Typography == */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+}
+
+h2 {
+    font-size: 30pt;
+}
+
+header,
+footer {
+    color: #b56441;
+}
+
+a {
+    text-decoration: none;
+    color: #b56441;
+    font-size: 14pt;
+}
+
+#legal {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+#nav a {
+    margin-right: 10px;
+}
+
+#nav a:hover {
+    color: #7d4700;
+}
+
+#splash {
+    text-align: center;
+    font-size: 48pt;
+    line-height: 60pt;
+    color: white;
+    text-shadow: 0px 0px 5px #6e6e6e;
+}
+
+footer {
+    font-style: italic;
+}
+
+/* Font Awesome icons */
+.fab {
+    font-size: 30pt;
+    margin-right: 10px;
+}
+
+.fab:hover {
+    color: ;
+}
+
+button {}
+
+/* == Background == */
+
+
+body {
+    background-color: #fcd303;
+}
+
+main {
+    background-color: #ffdd80;
+}
+
+#splash {
+    background-image: url(splash-backing.jpg);
+}
+
+/* == Box Model == */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    padding: 10px;
+}
+
+header {
+    padding: 20px;
+}
+
+button {
+    border: 0;
+    background-color: #b56441;
+    color: #fff;
+    padding: 20px;
+    font-size: 30pt;
+    margin-top: 15px;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+#splash {
+    height: 400px;
+}
+
+#app {
+    height: 200px;
+}
+
+/* === Layout  === */
+
+
+/* = Grid =*/
+header,
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#app {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* = Flexbox = */
+
+#app,
+#splash {
+    display: flex;
+}
+
+#app,
+#splash {
+    align-items: center;
+    justify-content: center;
+}
+
+/* = Other = */
+
+* {
+    box-sizing: border-box;
+}
+
+#social-media {
+    text-align: right;
+}
+
+#app {
+    text-align: center;
+}
+
+/* My code */
+
+#mobile-menu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    
+}
+
