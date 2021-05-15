@@ -1,3 +1,6 @@
+
+/* General css */
+
 *{
     box-sizing: border-box;
 }
@@ -7,10 +10,100 @@ body{
     padding: 0px;
     font-family: 'Cardo', serif;
     font-size: 12pt;
+    width: 1440px;
+    margin: auto
 }
 
 h1, h2, h3, h4{
     font-family: 'Josefin Sans', sans-serif;
+}
+
+/* top bar Menu */
+
+.logo img {
+    width: 279px; 
+    position: absolute;
+    margin-top: 40px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F3EAC0;
+  padding: 55px;    
+}
+
+header li {
+ float: right ;
+ background-color: #DC9750;
+ margin-left: 45px;         
+}
+
+li a {
+  font-size: 0.8em;    
+  display: block;
+  color: white;       
+  text-decoration: none;
+  padding-left: 35px;
+  padding-right: 35px;    
+   
+}
+
+/* image with text */
+
+h1 {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 430px;
+  color: white;
+  font-size: 3.5em;    
+
+}
+
+#textPhoto h3 {
+  position: absolute;
+  margin-top: 225px;
+  margin-left: 330px;
+  color: white;
+  font-size: 2em 
+  
+}
+
+
+#textPhoto img {
+    width: 1440px; 
+    height: 400px; 
+    object-fit: cover;  
+}
+
+
+
+/* our food */
+
+
+#ourFood h2 {
+    text-align: center;
+    color: #DC9750;
+    font-size: 2.5em;
+}
+
+#ourFood p {
+    text-align: center;
+    width: 864px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.rectangleMenu {
+  height: 517px;
+  width: 1440px;
+  background-color: #FFF9DE; 
 }
 
 #goToMenu img {
@@ -20,12 +113,46 @@ h1, h2, h3, h4{
     
 }
 
-
-.rectangleMenu {
-  height: 517px;
-  width: 1440px;
-  background-color: #FFF9DE;
+#foodOptions h4 {
+ font-size: 0.7em;    
+ display: block;
+ background-color: #DC9750;
+ width: 198px;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
 }
+
+#foodOptions a {
+ font-size: 1em;
+ color: white;
+ text-decoration: none;
+ display: block;
+ background-color: #922C40;
+ width: 198px;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px; 
+ text-align: center;
+ margin: auto;
+}
+
+.foodPhoto {
+    float: left
+}
+
+#goToMenu {
+    position: absolute;
+    padding-top: 110px;
+}
+
+#goToMenuLink {
+    position: absolute;
+    padding-top: 435px;
+    padding-left: 596px
+        
+}
+/* restaurant info and map */
 
 .rectangleFooter {
   height: 220px;
@@ -33,25 +160,21 @@ h1, h2, h3, h4{
   background-color: #922C40;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #F3EAC0;
-    padding: 55px;
-}
-
-li {
-  float: left;
-
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding-right: 55px;
-  text-decoration: none;
+#map img {
+    object-fit: cover;
+    height: 336px;
+    width: 682px;
     
 }
+
+#map {
+     position: absolute;
+    padding-left: 300px
+}
+
+.visitUs {
+    padding-bottom: 170px
+}
+
+/* footer */
+
