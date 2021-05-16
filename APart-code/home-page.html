@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> 
 
     <title>A PART Café</title>
 </head>
@@ -15,14 +16,11 @@
 <body>
 <header>
     
-    <nav class="logo"> <img src="logo.svg">
-    
-    </nav>
-    
     <nav>   
+        <img src="logo.svg" id="logo">
         <ul>
             <li><a href="#"><h4>Home</h4></a></li>
-                <li><a href="#"><h4>Menu</h4></a></li>
+            <li><a href="#"><h4>Menu</h4></a></li>
             <li><a href="#"><h4>Events</h4></a></li>
             <li><a href="#"><h4>About Us</h4></a></li>
             <li><a href="#"><h4>Online Store</h4></a></li>
@@ -43,7 +41,7 @@
     <p>We craft our dishes with a fun, fresh twist of flavors, traditions, and colors of Middle Eastern cuisine. Everything we make is from scratch. From our flavorful sauces and pickled veggies to our soft, fluffy flatbread. We smoke our Halal meats and veggies to melt in your mouth. Our spicy smokey flavors set us apart!</p>
     </section>
 
-<div id="foodOptions">
+<div id="foodOptions" class="rectangleMenu">
     
     
     <section id="goToMenu">
@@ -71,58 +69,51 @@
     
     <figure class="foodPhoto">
         <img src="images/Arabi-Grilled-Cheese-Tomato-Soup.JPG">
-        <figcaption><h4>Arabi Grilled Cheese & Tomato Soup</h4></figcaption>
+        <figcaption><h4>Arabi Grilled Cheese <br>& Tomato Soup</h4></figcaption>
     </figure>
         </section>
-
     
     <div id="goToMenuLink"> 
-        <a href="#">Go to Menu</a>
+        <a href="#"><h3>Go to Menu</h3></a>
     </div>
+</div>
     
-    
-    <div class="rectangleMenu"></div>
-    </div>
-    
-    <section>
+    <section class="visitUs">
         
-        <div> 
         <figure id="map">   
         <img src="images/aPart-map.JPG">
     </figure>     
         
-            <section class="visitUs">
-               <h2>Visit Us</h2>
-               <p>217 Vernon Street<br>
+            <section>
+               <h2 class="resetMargins">Visit Us</h2>
+               <p class="bodyspaceafter">217 Vernon Street<br>
             Roseville, CA 95678
             </p>
         
-        <h3>Hours</h3>
-        <p>Tue–Sat: 11am–8pm<br>
+        <h3 class="resetMargins">Hours</h3>
+        <p class="bodyspaceafter">Tue–Sat: 11am–8pm<br>
             Sun: 11am–6pm<br>
             Mon: Closed
             </p> 
                 
-            </section>
-        
-        </div>
-  
-    
+            </section>    
     </section>
+    
+    <aside>
+        <a href="#"><h2 id="order">Order Now</h2></a>
+    </aside>
     
     </main>
     
-<footer>
+<footer class="rectangleFooter">
     
-    <div class="rectangleFooter"></div>
-    
-    <div>
-        <a href="#"><img src="icons/instagram-brands.svg"></a>
-        <a href="#"><img src="icons/facebook-square-brands.svg"></a>
+    <div id="foot-icons">
+        <a href="https://www.instagram.com/apartofroseville/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/apartofroseville"><i class="fab fa-facebook-f"></i></a>
     </div>
     
-    <div>
-        <p>Subscribe to our Newsletter</p>
+    <div id="subscribe">
+        <p>Subscribe to our Newsletter</p><br>
         
         <form>
             <input type="text">
