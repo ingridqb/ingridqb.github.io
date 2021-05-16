@@ -12,6 +12,7 @@ body{
     font-size: 12pt;
     width: 1440px;
     margin: auto;
+    color: #1E2640;
 }
 
 h1, h2, h3, h4{
@@ -160,13 +161,13 @@ h1 {
     position: absolute;
     padding-top: 100px;
     padding-bottom: 150px;
+    padding-left: 25px;
 }
 
 #goToMenuLink {
     position: absolute;
-    padding-top: 430px;
-    padding-left: 596px;
-        
+    padding-top: 425px;
+    padding-left: 643px; 
 }
 
 /* restaurant info and map */
@@ -184,15 +185,15 @@ h1 {
 }
 
 .visitUs {
-    padding-top: 50px;
-    padding-bottom: 160px;
-    padding-left: 50px;
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 100px;
 }
 
 /* footer */
 
 .rectangleFooter {
-  height: 220px;
+  height: 200px;
   width: 1440px;
   background-color: #922C40;
     display: grid;
@@ -217,21 +218,20 @@ h1 {
     text-align: right;
 }
 
-footer p{
+footer h4{
     color: #FFF9DE;
     margin: 0;
+    padding: 0;
+    font-weight: 300;
 }
 
-/* Order Now floating button */
+/* Order Now button */
 
 #order{
-    display: inline-block;
     background-color: #DC9750;
     padding: 25px;
     color: white;
-    position: fixed;
-    bottom: 250px;
-    right: 280px;
+    float: right;
 }
 
 #order:hover{
