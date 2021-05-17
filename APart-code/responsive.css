@@ -1,0 +1,223 @@
+
+
+@media screen and (max-width:600px){
+       /* .rectangleMenu {
+  height: 1600px;
+  width: 1440px;
+  background-color: #FFF9DE; 
+} */
+    
+    body{
+    width: 600px;
+    margin: auto; 
+    }
+    
+   header li {
+     display: block;
+     text-align: center   
+             
+    }
+
+    header ul {
+        padding-left: 1px;
+        padding-top: 130px;
+        
+        
+    }
+
+    nav li a {
+        display: block;
+        margin-right: 200px; 
+        margin-top: 10px;
+        text-align: center    
+    }
+    
+    /* Menu */
+    
+        h1 {
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      text-align: center;
+      position: absolute;
+      margin-top: 90px;
+      margin-left: 140px;
+      color: white;
+      font-size: 2em;    
+
+    }
+
+    #textPhoto h3 {
+      position: absolute;
+      margin-top: 190px;
+      margin-left: 75px;
+      text-align: center;
+     
+      font-size: 1.2em;
+
+    }
+
+
+    #textPhoto img {
+        width: 600px; 
+        height: 300px; 
+        object-fit: cover;  
+    }
+
+    #ourFood h2 {
+    text-align: center;
+    color: #DC9750;
+    font-size: 2em;
+}
+
+    #ourFood p {
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        padding-bottom: 80px;
+    }
+    
+    
+    
+    /* food options */
+    
+    .rectangleMenu {
+      height: 1020px;
+      width: 600px;
+      background-color: #FFF9DE;
+    }
+
+   
+
+    goToMenuLink {
+        display: block;
+    }
+
+
+
+    /* map */
+    
+    #map img {
+    object-fit: cover;
+    height: 236px;
+    width: 355px;
+    
+}
+
+#map {
+    position: absolute;
+    padding-left: 150px;
+}
+    
+    
+    /* footer */
+    
+    .rectangleFooter {
+    width: 600px;
+    }
+
+
+
+
+    
+    
+    /* menu page */
+    
+    #menuNav a{
+    margin-top: 10px;
+    margin-left: 40px; 
+    
+    }
+    
+    #shwacos{
+    width: 600px;    
+    }
+            
+    #menuTextImg {
+        margin-top: 200px;
+        margin-left: -150px
+    }
+    
+    #menuTextImg img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    #menuTextImg h3, p {
+        margin-left: -50px;
+    }
+    
+    #menuTextImg {
+        width: 600px;
+  
+    }
+    .menuItem {
+        padding-bottom: 70px;
+    }
+    
+ 
+    
+    /* events */
+    
+    #eventtextphoto img{
+    width: 600px;  
+    object-fit: cover;  
+    text-align: center;
+    }
+    
+    #eventHead {
+    width: 90%;
+    margin: auto;
+    }
+    
+    #eventHead img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    }
+    
+    #eventHead h2{
+    margin-bottom: 35px;
+    margin-left: 230px;
+    color: #DC9750;
+    font-size: 2em;
+    padding-top: 30px;
+    
+    }
+
+    #eventHead p {
+    text-align: left;
+    margin-left: 230px;
+    width: 300px;
+    padding-bottom: 160px;
+    }
+    
+    #eventSection img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    float:left  
+    }
+    
+    
+    #eventSection h2, p {
+    text-align: left;
+    width: 100%;
+    }
+    
+    #eventSection h2 {
+        padding-left: 170px
+    }
+    
+    #eventSection P{
+        padding-left: 220px;
+    }
+    
+    #eventSection{
+    background-color: #F3EAC0;
+    padding: 50px;
+    padding-bottom: 1300px;
+    }
+}
+    
