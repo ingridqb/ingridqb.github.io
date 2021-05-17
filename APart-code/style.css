@@ -27,6 +27,11 @@ h1, h2, h3, h4, input{
     margin-bottom: 0px;
 }
 
+.currentLink{
+    text-decoration-line: underline;
+    text-decoration-color: #922C40;
+}
+
 /* top bar Nav */
 
 #logo{
@@ -52,71 +57,26 @@ nav a:hover{
 
 header li {
  float: left;
- background-color: #DC9750;
  margin-left: 45px;         
 }
 
 header ul {
-    padding-left: 384px
+    padding-left: 384px;
 }
 
 nav li a {
-  font-size: 0.8em;    
+  font-size: 0.8em;
+  background-color: #DC9750;
   display: block;
   color: white;       
   text-decoration: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
   padding-left: 35px;
   padding-right: 35px;    
 }
 
-/* Menu list */
-
-#menu{
-    background-color: #922C40;
-    padding-top: 50px;
-    padding-bottom: 15px;
-}
-
-#menuList{
-    color: #F3EAC0;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 35px;
-}
-
-#menuNav li{
-    list-style-type: none;
-    margin: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
-    background-color: #E5C100;
-    text-align: center;
-    margin-left: 50px;
-}
-
-#menuNav a{
-    text-decoration: none;
-    color: #1E2640;
-}
-
-#menuNav a:hover{
-    text-decoration: underline;
-    text-decoration-color: #922C40;
-}
-
-#menuNav h4{
-    margin: 0;
-}
-
-#menuSection{
-    background-color: #F3EAC0;
-    padding: 50px;
-}
-
-#menuSection h2{
+nav h4{
     margin: 0;
 }
 
@@ -320,7 +280,7 @@ footer h4{
 #eventSection{
     background-color: #F3EAC0;
     padding: 50px;
-    padding-bottom: 500px
+    padding-bottom: 500px;
 }
 
 #eventtextphoto h1 {
@@ -350,7 +310,7 @@ footer h4{
     margin-left: 350px;
     color: #DC9750;
     font-size: 2.5em;
-    padding-top: 30px
+    padding-top: 30px;
     
 }
 
@@ -364,7 +324,7 @@ footer h4{
 #eventHead img{
     width: 300px;
     height: 300px;
-    float: left
+    float: left;
 }
 
 #eventSection {
@@ -388,6 +348,53 @@ footer h4{
 
 /* Menu page */
 
+#menu{
+    background-color: #922C40;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+#menuList{
+    color: #F3EAC0;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+#menuNav li{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    background-color: #E5C100;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#menuNav a{
+    text-decoration: none;
+    color: #1E2640;
+}
+
+#menuNav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #922C40;
+}
+
+#menuNav h4, #menuSection h2{
+    margin: 0;
+}
+
+#menuSection{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-column-gap: 20px;
+}
+
 #menu h2 {
     font-size: 3em;
 }
@@ -404,14 +411,12 @@ footer h4{
 
 .menuItem {
     padding-bottom: 120px;
-    width: 1240px;
-    margin: auto; 
-    padding-top: 15px;
-    
 }
 
 .menuItem h3 {
     padding-left: 220px;
+    padding-top: 15px;
+    margin-top: 0;
 }
 
 .menuItem p {
@@ -419,10 +424,28 @@ footer h4{
     width: 80%;
 }
 
+#menuTextImg{
+    background-color: #F3EAC0;
+    width: 1132px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#shwacos{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
 #shwacos p{
     padding-bottom: 20px;
     width: 100%;
 }
 
-
+#shwacos h2{
+    color: #DC9750;
+}
     
