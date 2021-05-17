@@ -280,7 +280,10 @@ footer h4{
 #eventSection{
     background-color: #F3EAC0;
     padding: 50px;
+    padding-top: 35px;
     padding-bottom: 500px;
+    padding-left: 80px;
+    margin: auto;
 }
 
 #eventtextphoto h1 {
@@ -327,23 +330,22 @@ footer h4{
     float: left;
 }
 
-#eventSection {
-    margin: auto;
-}
-
 #eventSection img {
     width: 200px;
     height: 200px;
     object-fit: cover;
+    margin-top: 15px;
 }
 
-.pastEvents h2, p {
-    width: 200px;    
+.pastEvents h3, p {
+    width: 200px;  
+    margin-bottom: 0;
+    line-height: 23px;
 }
 
 .pastEvents {
     float: left;
-    padding-right: 130px;
+    padding-right: 110px;
 }
 
 /* Menu page */
