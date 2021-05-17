@@ -51,9 +51,13 @@ nav a:hover{
 }
 
 header li {
- float: right;
+ float: left;
  background-color: #DC9750;
  margin-left: 45px;         
+}
+
+header ul {
+    padding-left: 384px
 }
 
 nav li a {
@@ -316,6 +320,15 @@ footer h4{
 #eventSection{
     background-color: #F3EAC0;
     padding: 50px;
+    padding-bottom: 500px
+}
+
+#eventtextphoto h1 {
+    font-size 3em;
+    width: 100%;
+    margin: auto;
+    padding-top: 70px;
+    
 }
 
 #eventtextphoto img{
@@ -325,17 +338,91 @@ footer h4{
     text-align: center;
 }
 
+#eventHead {
+    width: 60%;
+    margin: auto;
+}
+
 #eventHead h2{
-    text-align: center;
-    margin-top: 25px;
+    text-align: left;
+    margin-top: 40px;
     margin-bottom: 35px;
+    margin-left: 350px;
     color: #DC9750;
     font-size: 2.5em;
+    padding-top: 30px
+    
 }
 
 #eventHead p {
-    text-align: center;
-    width: 864px;
-    margin: auto;
-    padding-bottom: 80px;
+    text-align: left;
+    margin-left: 350px;
+    width: 500px;
+    padding-bottom: 160px;
 }
+
+#eventHead img{
+    width: 300px;
+    height: 300px;
+    float: left
+}
+
+#eventSection {
+    margin: auto;
+}
+
+#eventSection img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pastEvents h2, p {
+    width: 200px;    
+}
+
+.pastEvents {
+    float: left;
+    padding-right: 130px;
+}
+
+/* Menu page */
+
+#menu h2 {
+    font-size: 3em;
+}
+
+#menuSection img {
+    height: 198px;
+    width: 198px;
+    text-align: right;
+}
+
+.menuItem img {
+    float: left;
+}
+
+.menuItem {
+    padding-bottom: 120px;
+    width: 1240px;
+    margin: auto; 
+    padding-top: 15px;
+    
+}
+
+.menuItem h3 {
+    padding-left: 220px;
+}
+
+.menuItem p {
+    padding-left: 220px;
+    width: 80%;
+}
+
+#shwacos p{
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+    
