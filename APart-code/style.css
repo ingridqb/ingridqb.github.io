@@ -361,22 +361,18 @@ footer h4{
     margin-bottom: 35px;
 }
 
-#menuNav li{
-    list-style-type: none;
-    margin: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
-    background-color: #E5C100;
-    text-align: center;
-    margin-left: 50px;
-}
-
 #menuNav a{
     text-decoration: none;
     color: #1E2640;
+    background-color: #E5C100;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
 }
 
 #menuNav a:hover{
