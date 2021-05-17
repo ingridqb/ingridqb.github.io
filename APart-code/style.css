@@ -303,3 +303,39 @@ footer h4{
 #order:hover{
     background-color: #922C40;
 }
+
+
+/* events */
+
+#events{
+    background-color: #922C40;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+#eventSection{
+    background-color: #F3EAC0;
+    padding: 50px;
+}
+
+#eventtextphoto img{
+    width: 1440px; 
+    height: 200px; 
+    object-fit: cover;  
+    text-align: center;
+}
+
+#eventHead h2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color: #DC9750;
+    font-size: 2.5em;
+}
+
+#eventHead p {
+    text-align: center;
+    width: 864px;
+    margin: auto;
+    padding-bottom: 80px;
+}
