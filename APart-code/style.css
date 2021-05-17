@@ -194,7 +194,7 @@ h1 {
 }
 
 #map {
-     position: absolute;
+    position: absolute;
     padding-left: 300px;
 }
 
@@ -207,9 +207,9 @@ h1 {
 /* footer */
 
 .rectangleFooter {
-  height: 200px;
-  width: 1440px;
-  background-color: #922C40;
+    height: 200px;
+    width: 1440px;
+    background-color: #922C40;
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 50px;
@@ -284,7 +284,7 @@ footer h4{
 }
 
 #eventtextphoto h1 {
-    font-size 3em;
+    font-size: 3em;
     width: 100%;
     margin: auto;
     padding-top: 70px;
